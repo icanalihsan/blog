@@ -1,15 +1,9 @@
-// BloggerJS v0.3.1
-// Copyright (c) 2017-2018 Kenny Cruz
-// Licensed under the MIT License
-
-// Configuration -----------
+//<![CDATA[
 var postsDatePrefix = false;
 var accessOnly = false;
-
 var useApiV3 = false;
 var apiKey = &quot;&quot;;
 var blogId = &quot;&quot;;
-// -------------------------
 var postsOrPages=[&quot;pages&quot;,&quot;posts&quot;],urlTotal,jsonIndex=1,secondRequest=!0,feedPriority=0,amp=&quot;&amp;&quot;[0],nextPageToken;function urlVal(){var url=window.location.pathname;var length=url.length;var urlEnd=url.substring(length-5);if(urlEnd===&quot;.html&quot;)return 0;else if(length&gt;1)return 1;else return 2}
 function urlMod(){var url=window.location.pathname;if(url.substring(1,2)===&quot;p&quot;){url=url.substring(url.indexOf(&quot;/&quot;,1)+1);url=url.substr(0,url.indexOf(&quot;.html&quot;));history.replaceState(null,null,&quot;../&quot;+url)}
 else{if(!postsDatePrefix)url=url.substring(url.indexOf(&quot;/&quot;,7)+1);else url=url.substring(1);url=url.substr(0,url.indexOf(&quot;.html&quot;));history.replaceState(null,null,&quot;../../&quot;+url)}}
@@ -40,3 +34,4 @@ for (var i = 0; i &lt; pres.length; i++) {
     selection.addRange(range);
   }, false);
 }
+//]]>
