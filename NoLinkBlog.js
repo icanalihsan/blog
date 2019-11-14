@@ -1,3 +1,4 @@
+//<![CDATA[
 var postsDatePrefix = false;
 var accessOnly = false;
 var useApiV3 = false;
@@ -33,3 +34,4 @@ for (var i = 0; i &lt; pres.length; i++) {
     selection.addRange(range);
   }, false);
 }
+//]]>
