@@ -1,4 +1,4 @@
-body{background:#eee;color:#333;width:100%;line-height:1.42857143;margin:0!important;overflow-x:hidden!important;overflow-y:hidden!important}
+body{background:#eee;color:#333;width:100%;line-height:1.42857143;margin:0!important;padding:0!important;overflow-x:hidden!important;overflow-y:hidden!important}
 body.single_view:not(.light){background-color:#ededed}
 a,a:hover,a:focus{text-decoration:none;outline:none}
 a,button,input,textarea,.btn,.contact-note p,.post_snippet_text,.post_share_buttons{-webkit-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}
